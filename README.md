@@ -1,73 +1,119 @@
-# Welcome to your Lovable project
+Flipkart Checkout – Low-Fidelity UI/UX Redesign
+Project Overview
 
-## Project info
+This project focuses on a low-fidelity UI/UX redesign of the Flipkart checkout flow.
+The goal was to analyze the existing checkout experience and redesign it in a simpler, more user-friendly, and intuitive way.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The redesign emphasizes usability, clarity, and reduced cognitive load, without adding unnecessary visual complexity.
 
-## How can I edit this code?
+Objective
 
-There are several ways of editing your application.
+Study the current Flipkart checkout process
 
-**Use Lovable**
+Identify pain points in user flow and interaction
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Design a low-fidelity checkout interface
 
-Changes made via Lovable will be committed automatically to this repo.
+Improve clarity, form structure, and navigation
 
-**Use your preferred IDE**
+Create a smooth and distraction-free checkout experience
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Scope of Work
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Cart summary layout
 
-Follow these steps:
+Address selection flow
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Payment method selection
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Order summary clarity
 
-# Step 3: Install the necessary dependencies.
-npm i
+CTA (Call-to-Action) placement
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Error prevention and form guidance
+
+Design Approach
+
+Low-Fidelity First: Focused on layout and UX flow rather than visuals
+
+User-Centered Design: Simple steps and clear actions
+
+Minimal UI: Reduced clutter for faster decision-making
+
+Consistency: Uniform spacing, alignment, and structure
+
+Key Improvements
+
+Clear step-by-step checkout flow
+
+Better grouping of related information
+
+Simplified form layout
+
+Improved readability and spacing
+
+Clear primary and secondary actions
+
+Tools & Technologies Used
+
+React – UI structure and components
+
+TypeScript – Code maintainability
+
+Vite – Fast development setup
+
+Tailwind CSS – Simple and consistent styling
+
+Project Structure
+src/
+│── components/        # Checkout UI components
+│── pages/             # Checkout screens
+│── assets/            # Icons & static files
+│── styles/            # Global styles
+│── App.tsx            # Main application file
+│── main.tsx           # Entry point
+
+How to Run the Project
+Prerequisites
+
+Node.js
+
+npm
+
+Steps
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to the project directory
+cd <project-folder>
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The project will run on:
 
-**Use GitHub Codespaces**
+http://localhost:5173
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Internship Task Details
 
-## What technologies are used for this project?
+Task Name: Checkout Flow Redesign
 
-This project is built with:
+Project Type: Low-Fidelity UI/UX
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Platform: Web
 
-## How can I deploy this project?
+Brand: Flipkart (Redesign Concept)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Learning Outcomes
 
-## Can I connect a custom domain to my Lovable project?
+Understanding real-world e-commerce checkout UX
 
-Yes, you can!
+Designing low-fidelity interfaces for usability testing
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Improving user flow and information hierarchy
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Applying UX principles to practical scenarios
